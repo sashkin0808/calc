@@ -1,0 +1,9 @@
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+  
+    .keyboard_btn:nth-child(10) {
+      grid-column: 1/3;
+    }
+}
